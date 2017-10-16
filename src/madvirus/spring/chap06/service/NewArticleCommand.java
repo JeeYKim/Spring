@@ -6,7 +6,8 @@ public class NewArticleCommand {
 	private String content;
 	private int parentId;
 	
-	public String getTitle() {
+	public String getTitle() {   
+		
 		return title;
 	}
 	public void setTitle(String title) {
